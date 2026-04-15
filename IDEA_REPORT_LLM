@@ -1,0 +1,52 @@
+| 编号 | 类别 | 文献 | 年份 | 一句话定位 | 对风光预测的价值 | 文章链接 |
+|---|---|---|---:|---|---|---|
+| 1 | 综述 | Foundation Models for Time Series: A Survey | 2025 | 时间序列基础模型的系统综述 | 适合写“时间序列基础模型”总述部分 | [链接](https://arxiv.org/html/2504.04011v1) |
+| 2 | 综述 | A Survey of Time Series Foundation Models: Generalizing Time Series Representation with Large Language Model | 2024 | TSFM 与 LLM4TS 的综述 | 适合梳理“基础模型 vs LLM”研究脉络 | [链接](https://arxiv.org/html/2405.02358v1) |
+| 3 | 综述 | Large Language Models for Time Series: A Survey | 2024 | 专门讨论 LLM 用于时间序列分析 | 可作为 LLM 做风光预测的综述入口 | [链接](https://arxiv.org/html/2402.01801v3) |
+| 4 | 综述 | Large Language models for Time Series Analysis | 2025 | LLM 驱动时序分析的较新综述 | 适合补充最新相关工作 | [链接](https://arxiv.org/html/2510.23090v1) |
+| 5 | 方法分析 | Time Series Forecasting with LLMs: Understanding and Enhancing Model Capabilities | 2024 | 分析 LLM 在时序预测中何时有效 | 帮你判断风光任务是否真的适合上 LLM | [链接](https://arxiv.org/html/2402.10835v3) |
+| 6 | 综述 | Deep Learning for Time Series Forecasting: A Survey | 2025 | 深度学习时序预测大综述 | 适合构建传统基线与比较体系 | [链接](https://arxiv.org/html/2503.10198v1) |
+| 7 | 能源综述 | Foundation Models for Clean Energy Forecasting: A Comprehensive Review | 2025 | 面向清洁能源预测的基础模型综述 | 与风电/光伏预测最贴近的综述之一 | [链接](https://arxiv.org/abs/2507.23147) |
+| 8 | 风电综述 | A survey on wind power forecasting with machine learning approaches | 2024 | 风电机器学习预测方法综述 | 适合写风电预测领域背景 | [链接](https://link.springer.com/article/10.1007/s00521-024-09923-4) |
+| 9 | 多模态综述 | Multi-modal Time Series Analysis: A Tutorial and Survey | 2025 | 多模态时间序列分析综述 | 对光伏多模态、风电多源融合都很有帮助 | [链接](https://arxiv.org/html/2503.13709v1) |
+| 10 | 基准/评测 | Towards the Next Generation of Time Series Forecasting Benchmarks | 2026 | 下一代时序预测基准与评测讨论 | 可帮助你设计更合理的实验基准 | [链接](https://arxiv.org/html/2602.12147v3) |
+| 11 | TS 基础模型 | Chronos: Learning the Language of Time Series | 2024 | 将时序量化为 token 的基础模型 | 适合做零样本/少样本风光预测强基线 | [链接](https://arxiv.org/abs/2403.07815) |
+| 12 | TS 基础模型 | A decoder-only foundation model for time-series forecasting | 2024 | TimesFM 对应论文 | 很适合风光功率预测基线搭建 | [链接](https://arxiv.org/abs/2310.10688) |
+| 13 | TS 基础模型 | Unified Training of Universal Time Series Forecasting Transformers | 2024 | Moirai 的统一训练框架 | 对多变量、多频率风光数据有参考价值 | [链接](https://arxiv.org/abs/2402.02592) |
+| 14 | TS 基础模型 | Time-MoE: Billion-Scale Time Series Foundation Models with Mixture of Experts | 2024 | MoE 版大规模时序基础模型 | 适合参考大模型扩展与 scaling law | [链接](https://arxiv.org/abs/2409.16040) |
+| 15 | TS 基础模型 | MOMENT: A Family of Open Time-series Foundation Models | 2024 | 开源时间序列基础模型家族 | 便于复现与迁移到能源场景 | [链接](https://arxiv.org/abs/2402.03885) |
+| 16 | TS 基础模型 | Lag-Llama: Towards Foundation Models for Probabilistic Time Series Forecasting | 2023 | 概率预测型基础模型 | 适合风光不确定性预测与分位数预测 | [链接](https://arxiv.org/abs/2310.08278) |
+| 17 | TS 基础模型 | DAM: Towards A Foundation Model for Time Series Forecasting | 2024 | 面向灵活预测跨度的基础模型 | 对复杂时域、多任务预测有启发 | [链接](https://arxiv.org/abs/2407.17880) |
+| 18 | TS 基础模型 | Sundial: A Family of Highly Capable Time Series Foundation Models | 2025 | 新一代强时序基础模型 | 可作为更新的零样本风光预测基线 | [链接](https://arxiv.org/abs/2502.00816) |
+| 19 | TS 基础模型 | Toto: Time Series Optimized Transformer for Observability | 2024 | 面向可观测性数据的时序模型 | 适合参考多变量工业时序建模方法 | [链接](https://arxiv.org/abs/2407.07874) |
+| 20 | TS 基础模型 | Timer: Generative Pre-trained Transformers Are Large Time Series Models | 2024 | 生成式预训练时序大模型 | 可借鉴自回归生成式预测思路 | [链接](https://arxiv.org/abs/2402.02368) |
+| 21 | TS 基础模型 | TimeFound: A Foundation Model for Time Series Forecasting | 2025 | 多分辨率 patch 的时序基础模型 | 对长短期混合风光预测较有参考性 | [链接](https://arxiv.org/abs/2503.04118) |
+| 22 | 预训练 | Large Pre-trained time series models for cross-domain Time series analysis tasks | 2023 | 跨域时序预训练研究 | 适合多场站迁移和跨区域风光预测 | [链接](https://arxiv.org/abs/2311.11413) |
+| 23 | 跨模态 TS | VisionTS: Visual Masked Autoencoders Are Free-Lunch Zero-Shot Time Series Forecasters | 2024 | 将视觉预训练思想迁移到时序 | 对“图像预训练迁移到时序”很有启发 | [链接](https://arxiv.org/abs/2408.17253) |
+| 24 | 预训练 | TimeSiam: A Pre-Training Framework for Siamese Time-Series Modeling | 2024 | Siamese 式时序预训练框架 | 适合小样本风光数据预训练 | [链接](https://arxiv.org/abs/2402.02475) |
+| 25 | LLM4TS | One Fits All: Power General Time Series Analysis by Pretrained LM | 2023 | 早期冻结预训练语言模型做时序 | 是 LLM4TS 的代表性起点文献 | [链接](https://arxiv.org/abs/2302.11939) |
+| 26 | LLM4TS | Time-LLM: Time Series Forecasting by Reprogramming Large Language Models | 2023 | 用重编程把时序接入 LLM | 是做“LLM 风光预测”最该重点读的论文之一 | [链接](https://arxiv.org/abs/2310.01728) |
+| 27 | LLM4TS | TEMPO: Prompt-based Generative Pre-trained Transformer for Time Series Forecasting | 2023 | decomposition + prompt 的时序框架 | 适合风光序列中的趋势/周期分解建模 | [链接](https://arxiv.org/abs/2310.04948) |
+| 28 | LLM4TS | LLM4TS: Aligning Pre-Trained LLMs as Data-Efficient Time Series Forecasters | 2023 | 强调对齐与数据高效微调 | 适合风光数据较少时的迁移方案 | [链接](https://arxiv.org/abs/2308.08469) |
+| 29 | LLM4TS | TEST: Text Prototype Aligned Embedding to Activate LLM's Ability for Time Series | 2023 | 文本原型对齐的时序方法 | 适合研究“结构化文本提示”如何帮助风光预测 | [链接](https://arxiv.org/abs/2308.08241) |
+| 30 | LLM4TS | Large Language Models Are Zero-Shot Time Series Forecasters | 2023 | 直接用 LLM 做零样本时序预测 | 适合做概念验证与方法比较 | [链接](https://arxiv.org/abs/2310.07820) |
+| 31 | LLM4TS | AutoTimes: Autoregressive Time Series Forecasters via Large Language Models | 2024 | 自回归式 LLM 时序预测 | 适合多步滚动风光预测比较 | [链接](https://arxiv.org/abs/2402.02370) |
+| 32 | LLM4TS | PromptCast: A New Prompt-based Learning Paradigm for Time Series Forecasting | 2022 | 较早的 prompt 化时序预测工作 | 可作为“把预测写成语言任务”的背景文献 | [链接](https://arxiv.org/abs/2210.08964) |
+| 33 | LLM4TS | GPT4MTS: Prompt-based Large Language Model for Multimodal Time-series Forecasting | 2024 | 面向多模态时序预测的 prompt-LM 方法 | 对风光多模态与文本提示融合很有帮助 | [链接](https://ojs.aaai.org/index.php/AAAI/article/view/30383) |
+| 34 | LLM4TS | LangTime: A Language-Guided Unified Model for Time Series Forecasting with Proximal Policy Optimization | 2025 | 语言引导 + PPO 微调的时序框架 | 适合做“语言指导预测”的创新延伸 | [链接](https://arxiv.org/abs/2503.08271) |
+| 35 | LLM4TS | Multi-scale hypergraph meets LLMs: Aligning large language models for time series analysis | 2026 | 超图结构与 LLM 对齐的时序方法 | 对多站点风电图结构预测很有借鉴价值 | [链接](https://arxiv.org/abs/2602.04369) |
+| 36 | LLM4TS | Forecasting Time Series with LLMs via Patch-Based Prompting and Decomposition | 2025 | patch prompting + decomposition 路线 | 适合风光多尺度波动建模 | [链接](https://arxiv.org/abs/2506.12953) |
+| 37 | LLM4TS | Taming Pre-trained LLMs for Generalised Time Series Forecasting via Cross-modal Knowledge Distillation | 2024 | 跨模态知识蒸馏增强 LLM4TS | 对多源风电/光伏数据融合很有启发 | [链接](https://arxiv.org/html/2403.07300v1) |
+| 38 | 反思/批判 | Are Language Models Actually Useful for Time Series Forecasting? | 2024 | 系统反思 LLM 是否真的适合时序预测 | 很适合在论文中讨论 LLM 的边界与局限 | [链接](https://arxiv.org/abs/2406.16964) |
+| 39 | 强基线 | A Time Series is Worth 64 Words: Long-term Forecasting with Transformers | 2022 | PatchTST 经典论文 | 是风光预测里非常重要的深度学习强基线 | [链接](https://arxiv.org/abs/2211.14730) |
+| 40 | 强基线 | iTransformer: Inverted Transformers Are Effective for Time Series Forecasting | 2023 | 倒置 token 设计的强基线 | 多变量风光预测中表现常常很强 | [链接](https://arxiv.org/abs/2310.06625) |
+| 41 | 强基线 | TimeMixer: Decomposable Multiscale Mixing for Time Series Forecasting | 2024 | 多尺度混合时序模型 | 很适合风光功率的多尺度波动建模 | [链接](https://arxiv.org/abs/2405.14616) |
+| 42 | 能源强基线 | CT-PatchTST: Channel-Time Patch Time-Series Transformer for Long-Term Renewable Energy Forecasting | 2025 | 面向可再生能源预测的 PatchTST 改进版 | 与风电/光伏任务直接相关 | [链接](https://arxiv.org/abs/2501.08620) |
+| 43 | 强基线 | Crossformer: Transformer Utilizing Cross-Dimension Dependency for Multivariate Time Series Forecasting | 2023 | 显式建模变量间依赖 | 对多气象量、多站点风光预测很有帮助 | [链接](https://openreview.net/forum?id=vSVLM2j9eie) |
+| 44 | 强基线 | N-BEATS: Neural basis expansion analysis for interpretable time series forecasting | 2019 | 经典可解释时序深度模型 | 适合作为非 Transformer 对照基线 | [链接](https://arxiv.org/abs/1905.10437) |
+| 45 | 光伏应用 | A Novel Distributed PV Power Forecasting Approach Based on Time-LLM | 2025 | 将 Time-LLM 用于分布式光伏预测 | 与“LLM 做光伏功率预测”高度相关 | [链接](https://arxiv.org/abs/2503.06216) |
+| 46 | 光伏应用 | Solar-VLM: Multimodal Vision-Language Models for Augmented Solar Power Forecasting | 2026 | 时序 + 卫星图像 + 文本 + 多站点的光伏框架 | 是光伏多模态大模型方向的重要代表作 | [链接](https://arxiv.org/abs/2604.04145) |
+| 47 | 光伏应用 | PV-VLM: A Multimodal Vision-Language Approach Incorporating Sky Images for Intra-Hour Photovoltaic Power Forecasting | 2025 | 天空图像与时序融合的光伏预测 | 很适合超短期光伏预测研究 | [链接](https://arxiv.org/abs/2504.13624) |
+| 48 | 光伏应用 | Short-Term Photovoltaic Power Forecasting Using PV Data and Sky Images in an Auto Cross Modal Correlation Attention Multimodal Framework | 2024 | PV 数据 + 天空图像融合的工程路线 | 适合做光伏多模态实现参考 | [链接](https://www.mdpi.com/1996-1073/17/24/6378) |
+| 49 | 风电应用 | BERT4ST: Fine-tuning pre-trained large language model for wind power forecasting | 2024 | 预训练语言模型做风电时空预测 | 是风电方向“LLM/PLM + 时空建模”的关键文献 | [链接](https://www.sciencedirect.com/science/article/pii/S0196890424002723) |
+| 50 | 风电应用 | M2WLLM: Multi-Modal Multi-Task Ultra-Short-term Wind Power Prediction Algorithm Based on Large Language Model | 2025 | 文本提示 + 数值时序的风电多模态 LLM 方法 | 很适合参考风电多模态与 LLM 融合设计 | [链接](https://arxiv.org/abs/2506.00531) |
